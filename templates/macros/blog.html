@@ -3,15 +3,17 @@
   <div class="blog-post">
   {% if from_index %}
     <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+    <span>{{ post.subtitle }} • </span>
   {% else %}
     <h2>{{ post.title }}</h2>
+    
   {% endif %}
   <i class="meta">
-    Escrito
+    Escrito por 
     
     {{ post.author }}
     
-    on {{ post.pub_date }}
+    el {{ post.pub_date }}
   </i>
   <!-- Divider-->
   <hr class="my-4" />

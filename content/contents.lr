@@ -1,6 +1,26 @@
-title: Welcome to Introduction to Commcare!
+title: Curso de Introducción a Commcare
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+Commcare es una plataforma móvil diseñada para la recopilación de datos, gestión de clientes, soporte de decisiones y comunicación de cambio de comportamiento. CommCare consta de dos componentes principales de tecnología: CommCare Mobile y CommCareHQ. Los médicos, enfermeras o visitadores comunitarios de cara al cliente utilizan la aplicación móvil en las visitas como herramienta educativa y de recopilación de datos. Los usuarios acceden a la plataforma de creación de aplicaciones a través del sitio web CommCareHQ la cual opera en un servidor basado en la nube.
+
+CommCare admite teléfonos con funciones J2ME y teléfonos o tabletas con el sistema operativo Android. Las versiones móviles de CommCare permiten que las aplicaciones se ejecuten fuera de línea y los datos recopilados se pueden transmitir a CommCareHQ cuando está disponible la conectividad inalámbrica (GPRS) o Internet (Wi-Fi).
+
+## Contenido del Curso
+
+Parte 1: Fundamentos de Commcare
+
+- Unidad 1: Visión General de Commmcare
+- Unidad 2: Construcción de aplicaciones
+- Unidad 3: Manejo de casos
+- Unidad 4: Datos y reportes
+
+Parte 2: Construcción de aplicaciones
+
+- Unidad 1: CommCareHQ.
+- Unidad 2: Form Builder
+- Unidad 3: Test and Publish your Application
+- Unidad 4: Advanced Form Builder
+- Unidad 5: Case Management
+- Unidad 6: Application Testing
+
