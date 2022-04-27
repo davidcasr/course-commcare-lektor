@@ -1,3 +1,4 @@
+
 {% macro render_blog_post(post, from_index=false) %}
   <div class="blog-post">
   {% if from_index %}
@@ -5,16 +6,13 @@
   {% else %}
     <h2>{{ post.title }}</h2>
   {% endif %}
-  <p class="meta">
-    written by
-    {% if post.twitter_handle %}
-      <a href="https://twitter.com/{{ post.twitter_handle
-        }}">{{ post.author or post.twitter_handle }}</a>
-    {% else %}
-      {{ post.author }}
-    {% endif %}
+  <i class="meta">
+    Escrito
+    
+    {{ post.author }}
+    
     on {{ post.pub_date }}
-  </p>
+  </i>
   {{ post.body }}
   </div>
 {% endmacro %}
