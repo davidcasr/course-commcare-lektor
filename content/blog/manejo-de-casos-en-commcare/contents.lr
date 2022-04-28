@@ -1,0 +1,34 @@
+title: Manejo de Casos en CommCare
+---
+author: David Castro
+---
+body:
+
+El manejo de casos en CommCare permite que la aplicación dé seguimiento a información a largo plazo; esta es una de las funciones más poderosas en CommCare.
+
+##  ¿Qué es el manejo de casos?
+
+Con el manejo de casos, las aplicaciones CommCare pueden guardar y actualizar información sobre personas o elementos de su interés, también llamados “casos”, durante un largo período de tiempo. Debido a que los casos guardan información sobre algo a lo largo del tiempo, puede verlo como un historial, o un archivo de alguna cosa. Toda la información recolectada se guardará en CommCare HQ, y solamente estará disponible en la aplicación CommCare.
+
+Las siguientes imágenes son ejemplos de cosas a las que uno probablemente querría darles seguimiento utilizando “casos” en su aplicación CommCare.
+
+Ejemplos
+- Un bebé 👶🏻
+- Una madre 👩🏻‍🍼
+- Un hogar 🏠
+- Una finca 🚜
+
+##  Metodología para registrar un caso 
+
+1. Registrar un caso
+2. Dar seguimiento, o "actualizar" el caso
+3. Cerrar el caso
+
+## Referencias 
+
+Fundamentos de Commcare https://academy.dimagi.com/offers/XzDLQwVW/checkout 
+
+---
+pub_date: 2022-04-27
+---
+subtitle: Unidad 3

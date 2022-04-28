@@ -1,0 +1,20 @@
+title: Desarrollar Aplicaciones en Commcare
+---
+author: David Castro
+---
+body:
+
+## Metodología de desarrollo de aplicaciones en CommCare
+
+- Paso 1: Crear un proyecto commcare
+- Paso 2: Desarrollar una aplicación
+- Paso 3: Desarrollar formularios en su aplicación
+- Paso 4: Organizar formularios en menús
+
+## Referencias 
+
+Fundamentos de Commcare https://academy.dimagi.com/offers/XzDLQwVW/checkout 
+---
+pub_date: 2022-04-27
+---
+subtitle: Unidad 2

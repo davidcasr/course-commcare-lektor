@@ -1,0 +1,36 @@
+title: Datos y Reportes
+---
+author: David Castro
+---
+body:
+
+## ¿Qué datos captura commcare?
+
+CommCare captura dos tipos de datos:
+
+Datos Brutos – Son datos e información que usted recolecta a través de preguntas y respuestas en formularios. Esto incluye toda la información que decide recolectar a través de su aplicación. Tal vez conozca esto como datos programáticos o datos de indicadores clave.
+Datos de Actividad del Trabajador – Son datos recolectados de manera automática por CommCare acerca del desempeño de su aplicación y usuarios móviles. Al ver estos datos, usted conoce cómo están utilizando CommCare sus usuarios móviles.
+
+## ¿Qué son los datos brutos?
+
+Los datos brutos es cualquier cosa que usted haya decidido recolectar al diseñar sus formularios CommCare.
+
+Los datos brutos pueden incluir cosas como: preguntas, respuestas, fechas, coordenadas GPS, valores ocultos y cálculos. Así que si usted pregunta: “¿cuál es la fecha de nacimiento del paciente?” y la respuesta es “14 de septiembre de 2012”, estos datos, tanto la pregunta como la respuesta, serán visibles en CommCare HQ como datos brutos.
+
+Todos los datos brutos se pueden visualizar, descargar y exportar en CommCare HQ. Abajo hay un ejemplo de un conjunto de datos brutos de CommCare que fue exportado a Excel.
+
+##  Tipos de datos brutos
+
+Hay dos tipos de datos brutos: datos brutos sobre formularios ingresados en CommCare, y datos brutos sobre casos.
+
+Datos de Formulario, o datos recolectados en un único formulario. Exportar un formulario le permitirá descargar ingresos desde cualquier formulario en una aplicación.
+Datos de Casos, o datos recolectados para un caso individual. Exportar un caso le permitirá descargar todos los datos asociados con un archivo de caso desde todos los formularios en la aplicación.
+
+
+## Referencias 
+Fundamentos de Commcare https://academy.dimagi.com/offers/XzDLQwVW/checkout 
+
+---
+pub_date: 2022-04-27
+---
+subtitle: Unidad 4

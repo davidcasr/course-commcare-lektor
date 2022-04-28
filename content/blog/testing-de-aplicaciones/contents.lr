@@ -1,0 +1,57 @@
+title: Testing de aplicaciones
+---
+author: David Castro
+---
+body:
+
+## Tipos de pruebas
+
+Al crear aplicaciones de CommCare, hay dos categorías de prueba:
+
+1. Pruebas de usuario
+
+La prueba de usuario es una fase en la que realmente prueba la aplicación en manos de las personas que la van a usar. Esto le permite probar suposiciones críticas sobre cómo la aplicación se asigna a los flujos de trabajo existentes, qué tan bien la entienden los usuarios y cuestiones como las traducciones y la idoneidad multimedia. Esencialmente, este tipo de prueba se ocupa de si la aplicación funciona para los usuarios como se esperaba durante la fase de diseño.
+
+2. Pruebas técnicas
+
+Las pruebas técnicas se ocupan de si la aplicación funciona técnicamente como se espera. Esto a menudo se hace usando la aplicación de una manera muy estructurada para verificar que funciona como se espera y revisando cuidadosamente los detalles de la estructura de la aplicación. También verificará problemas comunes como traducciones perdidas, archivos multimedia faltantes y cualquier error. Hay dos fases de pruebas técnicas:
+
+Revisión de la aplicación: garantizar que la estructura/los detalles de su aplicación incorporen las mejores prácticas de diseño
+Control de calidad o Garantía de calidad: prueba de que la aplicación funciona como se esperaba
+
+## Pruebas de usuario
+
+Hay muchas maneras diferentes de interactuar con los usuarios y ver si el diseño de la aplicación funciona como usted desea. A continuación se presentan varios tipos diferentes de participación. Para obtener más información, consulte la página del sitio de ayuda sobre pruebas de usuario.
+
+## Tipos de pruebas de usuario
+
+**Demostraciones para no usuarios:** a veces, una forma sencilla de obtener comentarios rápidos es hacer una demostración de la aplicación a alguien que esté familiarizado con los usuarios. A menudo se encuentran en una buena posición para proporcionar alguna dirección o detectar rápidamente posibles obstáculos. El límite para una demostración rápida es que solo cuando las personas realmente usan la aplicación se hacen evidentes algunas fuentes de confusión. Además, algunas personas pueden pensar que conocen a los usuarios mejor que ellos, o pueden tener suposiciones incorrectas.
+
+**Grupos Focales:** presentar y compartir la aplicación con un grupo de usuarios es una buena manera de obtener comentarios generales, especialmente sobre el contenido del formulario. Puede configurar un proyector y usar un emulador para demostrar la aplicación, si tales instalaciones están disponibles. Hay muchas perspectivas cuando hay varias personas. Un límite de este enfoque es que algunos usuarios pueden no sentirse cómodos compartiendo comentarios honestamente y, nuevamente, puede haber una oportunidad limitada para que las personas realmente intenten usar la aplicación.
+
+**Sesiones de observación:** una excelente manera de ver realmente cómo funciona una aplicación es realizar una breve sesión de capacitación con un usuario real y luego observar cómo intenta usarla. Esto puede ser en un entorno controlado como una oficina o durante una interacción real. Si puede, ver cómo funciona una aplicación en un entorno realista, incluso si tiene que brindar mucha ayuda, puede resaltar brechas o problemas clave con el diseño de la aplicación.
+
+**Pilotos:** muchos proyectos comienzan con un pequeño grupo piloto de 10 o 20 usuarios que intentan usar la aplicación durante un mes o más. Esto brinda muchas oportunidades para sesiones de observación, para analizar datos y para realizar entrevistas. Los pilotos son una parte clave de un plan de implementación y están cubiertos en otras pistas de aprendizaje de CommCare.
+
+## Control de calidad: mejores prácticas
+
+**Esboce un cronograma:** debe planificar al menos 1 o 2 horas para escribir el plan de prueba inicial, según el tamaño de la aplicación. Antes de lanzar la aplicación, debe (dependiendo de la complejidad de la aplicación), planificar pasar de 1 a 4 horas ejecutando la prueba según el tamaño y la complejidad de la aplicación.
+
+**Cree un plan de prueba sólido:** un plan de prueba documenta cada aspecto de una aplicación que debe probarse antes de que pueda considerarse estable y libre de errores. Vale la pena tomarse el tiempo de escribir su plan y pensar en el proceso para no olvidar o pasar por alto algo importante. Crear un plan de prueba llevará tiempo por adelantado, pero le ahorrará mucho tiempo a largo plazo. Cuando realiza cambios futuros en su aplicación y quiere asegurarse de no haber roto una lógica complicada, es mucho más rápido ejecutar los pasos predocumentados en un plan de prueba (¡o incluso hacer que otra persona pueda hacerlo!) Puede ver un ejemplo de un plan de prueba aquí.
+
+**Revise el plan de prueba:** debe realizar revisiones periódicas del plan de prueba para asegurarse de que permanezca actualizado a medida que realiza cambios en su aplicación.
+
+**Documento, documento, documento:** a medida que avanza en la prueba, incluya en el plan de prueba los enlaces reales a los formularios o casos que se envían. Esto le facilitará volver atrás y ver cuáles fueron los detalles reales; y si encuentra un error, una buena documentación hace que sea mucho más fácil enviar un informe de error o replicar el problema.
+
+**Conozca sus resultados esperados:** para cada aspecto de su aplicación que esté probando, debe conocer el comportamiento o resultado esperado para determinar si pasó o no.
+
+**Escribe el plan de prueba cuando haga su primera prueba:** mientras construye su aplicación y crea una prueba, construya para verificar la lógica en el teléfono, tome notas de los pasos que está tomando. Esto puede formar la base de su plan de prueba y no toma mucho tiempo además de los pasos que ya está probando. Además de documentar los pasos, escribirlos a menudo lo ayudará a pensar en otros pasos que debe probar.
+
+**Priorice los cálculos de prueba:** una de las cosas más difíciles de probar puede ser si todos los cálculos que ha utilizado funcionan. Esto es difícil porque, en general, no se puede "ver" lo que sucede en los valores ocultos. Esta página del sitio de ayuda le mostrará cómo crear rápidamente una etiqueta de depuración que contenga los valores de todos sus valores ocultos muy rápidamente.
+
+**Priorice probar cómo funcionan los formularios juntos:** Una vez que se hayan probado los formularios, querrá sumergirse en las pruebas de cómo funcionan los formularios juntos. Esto puede llevar mucho tiempo, pero algunas sugerencias incluyen: 1) Envíe un montón de datos de práctica para identificar casos extraños con los que puede encontrarse. 2) Mire las exportaciones de formularios y casos para identificar datos inesperados o faltantes. 3) Escriba algunos flujos de trabajo de ejemplo y asegúrese de que la aplicación funcione como se espera para cada uno de ellos.
+
+---
+pub_date: 2022-04-30
+---
+subtitle: Lectura Avanzada
